@@ -1,0 +1,64 @@
+.App {
+  font-family: "Roboto", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.app_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.app_form input {
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.app_form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.app_error {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+
+.weather-card {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #333;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+.weather-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.weather-card img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
